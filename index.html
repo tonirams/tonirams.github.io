@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body class="overflow-hidden">
+<body class="overflow-hidden" oncontextmenu="return false">
 
   <!-- NAVBAR -->
   <nav class="fixed top-0 left-0 w-full flex justify-between items-center px-4 md:px-6 py-4 text-xs uppercase tracking-widest z-50">
@@ -30,10 +30,10 @@
     </a>
 
     <!-- MENU -->
-    <a href="discography.html" class="opacity-50 hover:opacity-100 transition">
+    <a href="discography/" class="opacity-50 hover:opacity-100 transition">
       Discography
     </a>
-    <a href="art.html" class="opacity-50 hover:opacity-100 transition">
+    <a href="art/" class="opacity-50 hover:opacity-100 transition">
       Lost Works
     </a>
 
@@ -51,7 +51,7 @@
     </div>
 
     <!-- OVERLAY -->
-    <div class="absolute inset-0 bg-black/60 pointer-events-none"></div>
+    <div class="absolute inset-0 z-10 bg-black/60 pointer-events-none"></div>
 
     <!-- GRAINY --> 
     <svg class="absolute inset-0 w-full h-full opacity-15 pointer-events-none">
